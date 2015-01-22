@@ -63,4 +63,4 @@ def analysis(foldername, outdir, referencenum):
 
 if __name__ == '__main__':
     MyPath = os.path.join(os.path.dirname(os.path.realpath(__file__)))
-    analysis(os.path.join(MyPath, "..", "axa-telematics", "data", "drivers"), MyPath, 5)
+    analysis(os.path.join(MyPath, "..", "..", "kaggle-data", "drivers"), MyPath, 5)
